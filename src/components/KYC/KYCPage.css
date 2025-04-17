@@ -1,0 +1,18 @@
+.kyc-page {
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .kyc-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .kyc-form input,
+  .kyc-form button {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  

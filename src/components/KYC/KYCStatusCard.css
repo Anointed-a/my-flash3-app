@@ -1,0 +1,37 @@
+.kyc-status-card {
+    background-color: #eaf4fc;
+    border: 1px solid #b3d9f7;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .kyc-status-card h3 {
+    margin-bottom: 15px;
+    color: #004a77;
+  }
+  
+  .kyc-status-card p {
+    margin: 10px 0;
+  }
+  
+  .kyc-status-card button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .kyc-status-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .verified-message {
+    color: green;
+    font-weight: bold;
+  }
+  

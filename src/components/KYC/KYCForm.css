@@ -1,0 +1,69 @@
+/* src/components/KYC/KYCPage.css */
+
+.kyc-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffffdd;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(5px);
+  }
+  
+  .kyc-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+  }
+  
+  .kyc-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .kyc-form label {
+    font-weight: 500;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .kyc-form input[type="text"],
+  .kyc-form input[type="date"],
+  .kyc-form input[type="file"] {
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+  }
+  
+  .kyc-form input[type="file"] {
+    background-color: #f9f9f9;
+  }
+  
+  .kyc-form button {
+    padding: 12px;
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background 0.2s;
+  }
+  
+  .kyc-form button:hover {
+    background-color: #004bcc;
+  }
+  
+  .kyc-status {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #444;
+  }
+  

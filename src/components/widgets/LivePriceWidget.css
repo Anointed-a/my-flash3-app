@@ -1,0 +1,31 @@
+.live-price-widget {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .live-price-widget h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .price-row {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .price-card {
+    background-color: #f5f7fa;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #2d2d2d;
+    min-width: 100px;
+    text-align: center;
+  }
+  

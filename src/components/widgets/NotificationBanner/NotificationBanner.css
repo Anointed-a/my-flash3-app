@@ -1,0 +1,25 @@
+.notification-banner {
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .notification-banner.info {
+    background-color: #e0f7fa;
+    color: #00796b;
+  }
+  
+  .notification-banner.success {
+    background-color: #e6ffe6;
+    color: #2e7d32;
+  }
+  
+  .notification-banner.error {
+    background-color: #ffe6e6;
+    color: #d32f2f;
+  }
+  
+  

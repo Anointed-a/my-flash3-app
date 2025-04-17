@@ -1,0 +1,43 @@
+.notification-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #fff;
+    animation: slideDown 0.3s ease;
+  }
+  
+  .notification-banner.info {
+    background-color: #007bff;
+  }
+  
+  .notification-banner.success {
+    background-color: #28a745;
+  }
+  
+  .notification-banner.error {
+    background-color: #dc3545;
+  }
+  
+  .notification-banner button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
