@@ -17,6 +17,6 @@ const Home = ({ isSignupMode, userData, setUserData, handleAuthSubmit, toggleMod
       />
     </div>
   );
-
+};
 
 export default Home;
